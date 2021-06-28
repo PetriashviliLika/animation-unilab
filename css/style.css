@@ -1,0 +1,86 @@
+
+.background{
+	position: relative;
+	width: 100%;
+}
+
+.fish{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-60%, -50%);
+	height: 100px;
+	animation: fishanimation 10s infinite;
+}
+.fish1{
+	position: absolute;
+	top: 80%;
+	left: 20%;
+	transform: translate(-80%, -20%);
+	height: 100px;
+	animation: fishanimation1 10s infinite;
+}
+.fish2{
+	position: absolute;
+	top: 90%;
+	left: 60%;
+	transform: translate(-90%, -60%);
+	height: 100px;
+	animation: fishanimation 10s infinite;
+}
+.submarine{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	transform: translate(-5%, -5%);
+	height: 350px;
+	animation: submarineanimation 10s infinite;
+}
+.star{
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	transform: translate(-5%,-5%);
+	height: 70px;
+	animation: staranimation 5s infinite;
+}
+.star1{
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	transform: translate(-10%,-10%);
+	height: 70px;
+	animation: staranimation 5s infinite;
+}
+.star2{
+	position: absolute;
+	bottom: 2%;
+	left: 10%;
+	transform: translate(-2%,-10%);
+	height: 70px;
+	animation: staranimation 5s infinite;
+}
+	
+/*keyframe*/
+
+@keyframes fishanimation {
+	0%{transform: translateX(0px);}
+	100%{transform: translateX(750px);}
+}
+@keyframes submarineanimation{
+	0%{transform: translateX(0px); }
+	100%{transform: translateX(1200px);}
+}
+@keyframes fishanimation1 {
+	0%{transform: translateX(0px);}
+	100%{transform: translateX(1100px)}
+}
+@keyframes submarineanimation2 {
+	0%{transform: translateX(0px); }
+	100%{transform: translateX(700px);}
+}
+@keyframes staranimation {
+	0%{transform: rotate(0deg); }
+	100%{transform: rotate(360deg);}
+}
+	
